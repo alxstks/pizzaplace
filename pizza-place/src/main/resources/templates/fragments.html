@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head th:fragment="head">
+
+    <!-- CSS that isn't linking, lol-->
+    <link rel="stylesheet" th:href="@{/css/navbar.css}"/>
+
+    <title>Pizza Place</title>
+</head>
+
+<body>
+
+<div th:fragment="page-header" class="navbar" id="navbar">
+
+    <h1>PIZZA<img src="/images/pizza-icon-black.png" alt ="pizza logo" width="50" height="50">PLACE</h1>
+
+    <a href="/"><b>Home</b></a>
+    <a href="/menu">Menu</a>
+    <a href="/build">Build Ur Pizza</a>
+
+</div>
+
+
+</body>
+</html>
